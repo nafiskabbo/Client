@@ -14,15 +14,13 @@ import androidx.navigation.Navigation;
 import com.kabbodev.test.R;
 import com.kabbodev.test.databinding.Fragment1Binding;
 
-import org.jetbrains.annotations.NotNull;
-
 public class Fragment1 extends Fragment {
 
     private Fragment1Binding binding;
     private NavController navController;
 
     @Override
-    public View onCreateView (@NotNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         binding = Fragment1Binding.inflate(inflater, container, false);
         return binding.getRoot();
     }

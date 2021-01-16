@@ -20,8 +20,6 @@ import com.kabbodev.test.R;
 import com.kabbodev.test.databinding.Fragment2Binding;
 import com.kabbodev.test.utils.Utils;
 
-import org.jetbrains.annotations.NotNull;
-
 import java.util.UUID;
 
 public class Fragment2 extends Fragment {
@@ -30,7 +28,7 @@ public class Fragment2 extends Fragment {
     private NavController navController;
 
     @Override
-    public View onCreateView(@NotNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         binding = Fragment2Binding.inflate(inflater, container, false);
         return binding.getRoot();
     }
