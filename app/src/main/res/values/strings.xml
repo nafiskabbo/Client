@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Test</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="get_2_credits">Get 20 credits for each friend who signs up with your referral code</string>
+    <string name="invite_friends_">Invite friends, get 20 credits</string>
+    <string name="copy_my_referral_code">Copy My Referral Code</string>
+    <string name="your_referral_code">Your Referral Code</string>
+</resources>
